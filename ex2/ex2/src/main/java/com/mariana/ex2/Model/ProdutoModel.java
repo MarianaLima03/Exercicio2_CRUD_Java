@@ -19,6 +19,9 @@ public class ProdutoModel {
     
     private Integer estoque;
 
+    public ProdutoModel() {
+    }
+
     public Long getId() {
         return id;
     }
